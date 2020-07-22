@@ -1,0 +1,45 @@
+Pengertian  Algoritma
+
+  Algoritma adalah Sistim kerja komputer memiliki brainware, hardware, dan software. Tanpa salah satu dari ketiga sistim tersebut, komputer tidak akan berguna. Kita akan lebih fokus pada software komputer. Software terbangun atas susunan program dan syntax. Untuk menyusun program atau syntax, diperlukannya langkah-langkah yang sistematis dan logis untuk dapat menyelesaikan masalah atau tujuan dalam proses pembuatan suatu software. Maka Algoritma berperan penting dalam penyusunan program atau syntax tersebut.
+
+Pengertian Algoritma adalah susunan yang logis dan sistematis untuk memecahkan suatu masalah atau untuk mencapai tujuan tertentu. Dalam dunia komputer, Algoritma sangat berperan penting dalam pembangunan suatu software. Dalam dunia sehari-hari, mungkin tanpa kita sadari Algoritma telah masuk dalam kehidupan kita.
+
+Contoh nyata Algoritma dalam kehidupan sehari-hari adalah "Cara Membuat Mie Instan". Berikut langkah-langkah cara membuat mie instan:
+
+1. Ambil goreng di dalam lemari yang terletak di dapur.
+2. Siapkan peralatan yang diperlukan seperti panci, gunting, piring, serta sendok dan garpu.
+3. Masukkan bumbu mie instan pada piring
+4. Hidupkan kompor, kemudian tuangkan air kurang lebih tiga gelas air ke dalam panci kemudian tunggu hingga air mendidih.
+5. Masukkan mie instan ke dalam air mendidih, lalu aduk dan tunggu hingga tiga menit.
+6. Tiriskan air di dalam panci, kemudian tuangkan mie pada piring.
+7. Aduk mie agar bumbu tercampur merata pada mie kemudian sajikan dengan keadaan hangat.
+
+Kurang lebih di atas merupakan cara membuat mie instan. Langkah-langkah di atas juga termasuk dalam Algoritma. Jadi perlu diingat bahwa Algoritma tidak hanya diterapkan pada komputer, tetapi juga Algoritma diterapkan dalam kehidupan sehari-hari.
+
+Contoh penggunaan Algoritma adalah dalam pembuatan program pada bahasa pemrograman seperti bahasa C, C#, dan Visual Basic. Dengan syntax yang berbeda pada tiap bahasa pemrograman dan Algoritma, kumpulan syntax akan tersusun dan terlahirlah software.
+
+Jadi intinya, Pengertian Algoritma adalah suatu langkah/urutan yang logis dan sistematis untuk pemecahan suatu masalah atau untuk mencapai tujuan yang diinginkan.
+
+Struktur Dasar Algoritma
+Algoritma berisi langkah-langkah penyelesaian suatu masalah. Langkah-langkah tersebut dapat berupa runtunan aksi (sequence), pemilihan aksi (selection), pengulangan aksi (iteration) atau kombinasi dari ketiganya. Jadi struktur dasar pembangun algoritma ada tiga, yaitu :
+	1.Struktur Runtunan
+	Digunakan untuk program yang instruksinya sequential atau urutan.
+	2.Struktur Pemilihan
+	Digunakan untuk program yang menggunakan pemilihan atau penyeleksian kondisi.
+	3.Struktur Perulangan
+	Digunakan untuk program yang instruksinya akan dieksekusi berulang-ulang.
+
+Ciri Algoritma    
+1.  Algoritma mempunyai awal dan akhir
+2.  Setiap langkah harus didefinisikan dengan tepat sehingga tidak memiliki arti ganda
+3.  Memiliki input atau kondisi awal
+4.  Memiliki output atau kondisi akhir
+5.  Algoritma harus efektif. Bila digunakan benar-benar menyelesaikan persoalan
+
+Sifat Algoritma
+
+1.  Input : Suatu algoritma memiliki input atau kondisi awal sebelum algoritma dilaksanakan dan bisa berupa nilai-nilai pengubah yang diambil dari himpunan khusus.
+2.  Output : Suatu algoritma akan menghasilkan output setelah dilaksanakan atau algoritma akan         mengubah kondisi awal menjadi kondisi akhir, dimana nilai output diperoleh dari proses input.
+3.  Definiteness : Langkah-langkah yang dituliskan dalam algoritma terdefinisi dengan jelas sehingga mudah dilaksanakan oleh pengguna algoritma.
+4.  Effectiveness : Setiap langkah dalam algoritma bisa dilaksanakan dalam suatu selang waktu tertentu sehingga pada akhirnya memberi solusi sesuai yang diharapkan.
+5.  Generality : Langkah-langkah algoritma berlaku untuk setiap himpunan input yang sesuai dengan persoalan yang akan diberikan tidak akan hanya untuk himpunan tertentu.

@@ -15,7 +15,7 @@ proses membuat teh celup
 7. aduk perlahan.
 8. selesai.
 
-TUGAS:
+TUGAS 1:
 Buatlah 1 buah contoh seperti diatas dari kegiatan yang biasa kamu lakukan sehari-hari, lengkap dengan "mulai" hingga "selesai".!
 
 B. Pseudocode
@@ -33,4 +33,13 @@ Pseudocode disusun dengan langkah-langkah yang menyerupai bahasa pemrograman. Ja
 
 C. Flowchart
   Terdapat satu lagi cara penulisan algoritma, yaitu menggunakan simbol-simbol yang memang sudah standart pada dunia komputer. Simbol ini disebut "flowchart". flowchart dapat diartikan merupakan alur pemikiran yang dituangkan kedalam bentuk simbol. Berikut ini aturan penggunaan gambar atau simbol pada flowchart.
-1. 
+1. Terminator : Digunakan untuk menatakan titik awal atau titik akhir diagram alir.
+2. Garis alir (Flow line) : Digunakan untuk arah aliran algoritma.
+3. Proses : Digunakan untuk menyatakan sembarang proses, misalnya untuk menyatakan suatu proses aritmatika.
+4. Proses terdefinisi : Digunakan untuk menyatakan prosedur lain yang telah didiagramlirkan.
+5. Input/Output : Digunakan untuk menyatakan operasi pemasukan data atau penampilan data.
+6. Keputusan : Digunakan untuk melakukan pengambilan keputusan.
+7. Konektor : Digunakan unutk menghubungkan ke berbagai bagian dalam diagram alir.
+
+Tugas 2 :
+Carilah dan gambarkan simbol-simbol flowchart diatas dari nomor 1 - 7 (Hanya gambar saja tanpa keterangannya)!

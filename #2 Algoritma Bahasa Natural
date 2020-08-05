@@ -1,5 +1,8 @@
-ALGORITMA BAHASA NATURAL
-Alahasa natural ini adalah menuliskan algoritma dengan bahasa sehari-hari, tidak ada aturan khusus didalamnya. Yang terpenting adalah maksud dari algoritma tersebut dan awalnya diberi tanda misalnya  "mulai" lalu akhirnya diberi "selesai"
+CARA PENULISAN ALGORITMA
+  Algoritma merupakan langkah-langkah penyelesaian dari suatu masalah. Cara penulisan algoritma adalah dengan bahasa natural, pseudocode, dan flowchart.
+
+A. Bahasa Natural
+  Bahasa natural ini adalah menuliskan algoritma dengan bahasa sehari-hari, tidak ada aturan khusus didalamnya. Yang terpenting adalah maksud dari algoritma tersebut dan awalnya diberi tanda misalnya "mulai" lalu akhirnya diberi "selesai".
 
 Contoh algortima bahasa natural
 proses membuat teh celup 
@@ -15,5 +18,19 @@ proses membuat teh celup
 TUGAS:
 Buatlah 1 buah contoh seperti diatas dari kegiatan yang biasa kamu lakukan sehari-hari, lengkap dengan "mulai" hingga "selesai".!
 
-Apabila ada yang kurang jelas mengenai perintah tugas, kamu dapat menghubungi saya melalui WA
-Selamat Mengerjakan dan Selamat Mencoba
+B. Pseudocode
+  Pseudocode berasal dari kata "pseudo" dan "code", artinya : kode semu atau menyerupai kode program sebenarnya. Pseudocode menggunakan simbol-simbol yang mirip atau menyerupai kode program yang ditulis dengan menggunakan bahasa pemrograman tertentu.
+
+Terdapat beberapa pedoman dalam penyusunan pseudocode, yaitu :
+1. Notasi, digunakan untuk memberikan nilai kepada suatu variabel.
+2. Setiap pernyataan yang dapat berdiri sendiri akan ditulis dalam sebuah baris tersendiri.
+3. Setiap variabel akan ditulis dengan awalan huruf.
+4. Penjorokan ke kanan digunakan untuk menuliskan pernyataan-pernyataan yang berada dalam suatu struktur blok.
+5. Simbol // digunakan untuk menyatakan komentar.
+6. Lebih banyak menggunakan bahasa inggris dalam menjelaskan alur program.
+
+Pseudocode disusun dengan langkah-langkah yang menyerupai bahasa pemrograman. Jadi, untuk mengimplementasikannya ke dalam bahasa pemrograman, hanya tinggal mengubah sedikit dari pseudocode.
+
+C. Flowchart
+  Terdapat satu lagi cara penulisan algoritma, yaitu menggunakan simbol-simbol yang memang sudah standart pada dunia komputer. Simbol ini disebut "flowchart". flowchart dapat diartikan merupakan alur pemikiran yang dituangkan kedalam bentuk simbol. Berikut ini aturan penggunaan gambar atau simbol pada flowchart.
+1. 

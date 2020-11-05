@@ -17,4 +17,33 @@ f Penggunaan huruf besar sangat berpengaruh pada variabel
 g. Tidak boleh mengandung kata kunci atau kata yang berhubungan dengan script atau perumusan program
 
 B. Tipe Data
-Tipe data adalah jenis data
+Tipe data adalah jenis data yang dapat diolah oleh komputer untuk memenuhi dalam kebutuhan pemrograman komputer. dalam setiap variabel yang ada dalam kode program, sebaiknya ditentukan dengan pasti tipe datanya. Dalam algoritma ada beberapa jenis tipe data, yaitu :
+a. Tipe Data Bulat (Integer / int)
+Tipe data bilangan bulat yaitu bilangan atau angka yang tidak mempunyai titik desimal atau pecahan. Tipe data ini dapat menampung bilangan -2147483648 sampai dengan 2147483648. Contoh penggunaannya adalah digunakan untuk umur, sebagai penghitung, atau lain sebagainya yang hanya memiliki hasil atau memiliki nilai bulat.
+b. Tipe Data Riil
+Merupakan tipe data dengan ketelitian tinggi sebanyak 15 digit. Data riil memiliki jumlah bit sebanyak 32 bit (4 byte). Tipe data ini dapat menampung bilangan antara 10 pangkat -38 sampai dengan 10 pangkat 38. Contoh penggunaannya yakni untuk mencari rata-rata, ukuran sepatu, ukuran celana, hasil volume bangun ruang atau hasil apapun yang tidak memiliki hasil akhir bilangan bulat.
+c. Tipe Data Karakter
+Adalah tipe data yang menggunakan semua huruf dalam alphabet, angka desimal, operator aritmatika, tanda baca, dan karakter lainnya yang terdapat dalam daftar ASCII.
+d. Tipe Data Boolean
+Jenis tipe data ini merupakan tipe data yang bernilai benar dan salah, nilai benar ditandai dengan angka 1 dan nilai salah ditandai dengan angka 0. Pada penulisan pemrograman atau script biasa dituliskan dengan true atau false, true sebagai nilai benar dan false sebagai nilai salah.
+e. Tipe Data String
+Tipe data ini merupakan tipe data dari gabungan beberapa karakter yang membentuk sebuah teks.
+
+SOAL
+1. Perhatikan penulisan variabel berikut ini
+   _angka Ganjil2
+   Kompilator tidak dapat memproses atau mengeksekusi variabel diatas. Penulisan variabel diatas salah, dikarenakan....
+   a. Menggunakan huruf kapital
+   b. Menggunakan angka
+   c. Menggunakan spasi
+   d. Menggunakan garis bawah pada awal variabel
+   e. Menggunakan 2 (dua) kata
+   Jelaskan alasan pilihanmu : .........
+2. Tipe data bilangan bulat yaitu bilangan atau angka yang tidak mempunyai titik desimal atau pecahan disebut....
+   a. Float
+   b. Integer
+   c. Double
+   d. Character
+   e. Boolean
+   Jelaskan alasan pilihanmu : .........
+   

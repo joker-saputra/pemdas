@@ -1,0 +1,20 @@
+A. Variabel
+Variabel merupakan objek data yang dapat diubah-ubah atau dimanipulasi harga dan nilainya. Ada beberapa aturan dalam penulisan variabel, di antaranya sebagai berikut :
+a. Nama variabel tidak boleh mengandung spasi
+   ex : int nilaisiswa = 50;
+   "nilaisiswa" adalah variabelnya
+b. Dapat diawali dengan huruf atau garis bawah
+   ex : int _hasil = 150;
+   "_hasil" adalah variabelnya
+c. Tidak boleh diawali dengan angka namun angka dapat dimasukkan pada pertengahan atau pada akhiran
+   ex : int hasil2 = 150;
+d. Tidak boleh mengandung operator aritmatika dan operator relasional
+e. Nama variabel tidak boleh mengandung karakter khusus atau simbol-simbol
+f Penggunaan huruf besar sangat berpengaruh pada variabel
+  ex : int Hasil = 5;
+  ex : int hasil = 5;
+  "Hasil" dan "hasil" adalah variabel yang berbeda
+g. Tidak boleh mengandung kata kunci atau kata yang berhubungan dengan script atau perumusan program
+
+B. Tipe Data
+Tipe data adalah jenis data

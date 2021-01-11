@@ -1,0 +1,68 @@
+struktur kontrol perulangan
+1. perulangan kondisi di awal menggunakan struktur while do.
+   a. struktur while do.
+   b. penetapan penulangan menggunakan while do pada c++
+2. perulangan kondisi di akhir menggunakan struktur do while.
+   a. struktur do while.
+   b. penerapan perulangan menggunakan do while pada c++.
+3. perulangan menggunakan struktur for.
+   a. struktur for pecahan naik.
+   b. struktur for pecahan turunan.
+
+Pertanyaan awal
+1. Apakah yang kamu ketahui mengenai struktur perulangan?
+2. Apakah kamu pernah menemui suatu pekerjaan yang dikerjakan secara berulang-ulang? berikan contohnya!
+3. berikan penjelasanmu mengenai ciri-ciri struktur perulangan!
+
+A.1 struktur while do
+pada perulangan menggunakan struktur while do,  disediakan terlebih dahulu pada awal sebuah kondisi atau syarat yang harus dipenuhi. kondisi atau syarat ini haruslah dipenuhi terlebih dahulu agar proses atau aksi selanjutnya dapat dijalankan. perulangan ini juga sering disebut dengan perulangan kondisi di awal.
+kontruksi while-do mempunyai sifat memproses terlebih dahulu kondisi yang ada.  apabila kondisi bernilai benar maka konstruksi ini akan menjalankan aksi, apabila bernilai salah maka akan langsung menuju pada akhir perulangan tanpa mengerjakan aksi.  struktur yang dimiliki adalah sebagai berikut. 
+
+while (kondisi)
+{
+  pernyataan yang akan fi ulang;
+}
+
+A.2. penerapan perulangan menggunakan will do pada c++
+bagaimana cara menuliskan "Belajar C++" sebanyak 10 kali hanya dengan satu kali perintah?  perhatikan kode program dibawah ini.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+  int a;
+  a = 0;
+  while (a<10)
+  {
+    cout<<"Belajar C++"<<endl;
+    a++;
+  }
+  return 0;
+}
+
+penjelasan dari kode program diatas adalah int a; digunakan untuk mendeklarasikan variabel a sebagai indeks perulangan.
+a = 0; digunakan untuk melakukan inisialisasi nilai terhadap variabel a.
+while (a<10) merupakan kondisi perulangan yang digunakan, apabila nilai a masih kurang dari 10 maka perulangan akan terus dijalankan.
+cout<<"Belajar C++"<<endl; merupakan tampilan yang akan diulang apabila kondisi bernilai benar titik pada hal ini akan mengulang kalimat "Belajar C++".
+a++; merupakan pernyataan yang digunakan untuk menaikkan nilai a dengan menambahkan dengan 1 (karena a++ sama dengan a=a+1), dan setelah bernilai 10, maka perulangan akan dihentikan.
+
+tugas
+1. silahkan melakukan percobaan penerapan perulangan menggunakan while do menggunakan kode program diatas, jika sudah selesai silakan coba dijalankan hasil proses dari program yang dijalankan silakan di screenshoot lalu dikumpulkan!
+2. silakan buat program menggunakan kode program dibawah ini hasil dari proses menjalankan program ini silakan di screenshot lalu dikumpulkan!
+#include <iostream>
+using namespace std;
+int main()
+{
+  int d=1;
+  while(d<=10)
+  {
+    int e=1;
+    while(e<=d)
+    {
+      cout<<e;
+      e++;
+    }
+    cout<<endl;
+    d++;
+  }
+}

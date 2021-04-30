@@ -1,0 +1,95 @@
+F U N G S I
+1. Deklarasi dan definisi fungsi
+Pendahuluan
+Suatu program merupakan kumpulan dari pernyataan - pernyataan. Kadangkala pernyataan - pernyataan tersebut diperlukan berulang - ulang pada beberapa tempat di program yang sama. Pengulangan pernyataan - pernyataan tersebut membuat program menjadi tidak efisien. dengan pembuatan suatu fungsi, maka pengulangan pernyataan - pernyataan tsb tidak perlu terjadi, karena kita dapat memanggil kembali fungsi tsb.
+
+Suatu fungsi dapat dibuat di dalam program yang sama ( fungsi internal) maupun di file lain ( fungsi eksternal ).
+
+Fungsi dalam bahasa C adalah subprogram, atau sekumpulan kode yang ditaruh dalam sebuah blok dan dibuat untuk menjalankan tugas khusus, salah satu tujuan penggunaan dari fungsi dalam pemrograman adalah untuk membuat program lebih tersetruktur dan efisien sehingga program mudah dipahami atau dibaca alur programnya.
+
+SIFAT - SIFAT DAN MANFAAT FUNGSI
+1. Menghindari penulisan program yang berulang
+2. Fungsi akan membagi program menjadi modul - modul yang lebih kecil (modular design) , sehingga jika terjadi kesalahan dalam program akan lebih mudah dilacak.
+3. Setiap fungsi memiliki tingkatan yang sama dan berdiri sendiri. Dengan demikian fungsi - fungsi ini dapat dipanggil dari sembarang fungsi yang lain dengan mudah. Dalam Turbo C tidak diperkenankan sebuah fungsi ada dalam fungsi yang lain (nested function)
+4. Fungsi dalam C dapat menghasilkan nilai, data ataupun hasil atau kegiatan lain yang bukan berupa data maupun nilai. Turbo C tidak membedakan fungsi yang menghasilkan nilai ( fungsi) dan fungsi yg menghasilkan data (prosedur).
+
+Fungsi standar bahasa c misalnya: main(), printf(), getch(). Fungsi main() harus ada dalam bahasa c, fungsi printf untuk menampilkan teks pada layar dan fungsi getch() untuk membaca masukan dari tombol keuboard. Selain fungsi-fungsi yang sudah ada kita membuat fungsi baru dalam bahasa c asal tidak sama dengan fungsi standar nama, proses dan parameter bisa dibuat sesuai kebutuhan. 
+
+ Berikut ini adalah cara mendeklarasikan sebuah fungsi pada bahasa C:
+ 
+tipe_data_keluaran nama_fungsi (tipe_data_1 nama_variabel_1,...,tipe_data_n nama_variabe_n){
+    Proses
+    return variabel_keluaran
+}
+
+Keterangan :
+tipe_data_keluaran, dapat berupa salah satu tipe data C, misalnya char atau int. Kalo penentu tipe tidak disebutkan maka dianggap bertipe int.nama_fungsi, ini merupakan
+nama dari fungsi yang digunakan untuk memanggil fungsi tersebut.tipe_data_1 nama_variabel_1, merupakan parameter yang diterima oleh fungsi untuk diolah pada proses yang terdapat didalam fungsi.
+
+proses, berisi deklarasi variabel (jika ada) dan program yang akan melakukan tugas yang akan diberikan kepada fungsi.
+return variabel_keluaran, nilai balikan yang akan dikirim oleh fungsi kepada yang memanggil fungsi tersebut.
+Contoh deklarasi fungsi pada bahasa C:
+int nilaiTerkecil (int a, int b, int c){
+    int keluaran;
+    //proses
+    return keluaran;
+}
+
+
+2. Parameter fungsi
+
+3. Nilai Balik
+
+4. Fungsi Rekrusif
+Bentuk rekursi merupakan alternatif dari bentuk iterasi atau perulangan. Fungsi rekrusif (perulangan rekursif) merupakan salah satu metode didalam pemrograman yang memanggil fungsi itu sendiri sampai keadaan tertentu terpenuhi.
+
+Proses Komputasi Secara Rekursif dari 4!
+
+F(4)=4x F(3) fase awal
+F(3)=3x F(2) .
+F(2)=2x F(1) .
+F(1)=1 kondisi terminal
+F(2)=(2)x(1) fase balik
+F(3)=(3)x(2) .
+F(4)=(4)x (6) 24 Rekursi lengkap.
+
+Syarat faktorial :
+n=0 maka n!=1
+
+n>0 maka n!=n*(n-1)!
+
+Masalah yang dapat diselesaikan secara rekursif adalah masalah yang dibagi menjadi satu atau lebih masalah-masalah serupa yang lebih kecil.
+Simple Cases adalah kondisi-kondisi yang dapat diselesaikan secara langsung tanpa perlu di-rekursi dan biasanya digunakan sebagai tanda akhir dari sebuah rekursi.
+Recursive Case adalah kondisi-kondisi yang diselesaikan dengan cara memanggil fungsi itu sendiri dengan problem yang semakin berkurang mendekati simple case.
+
+Tujuan
+1. Memahami rekursi sebagai konsep yang dapat digunakan untuk merumuskan solusi sederhana dalam sebuah permasalahan yang sulit untuk diselesaikan loop for, while do.
+2. Dapat menyelesaikan suatu permasalahan dengan konsep rekursif
+3. Berpikir secara rekursif
+
+
+KELEBIHAN DAN KELEMAHAN REKURSIF
+
+Kelebihan Perulangan Rekursif :
+• Sangat mudah untuk melakukan perulangan dengan batasan yang luas dalam artian melakukan perulangan dalam skala yang besar.
+• Dapat melakukan perulangan dengan batasan fungsi.
+
+
+Kekurangan Perulangan Rekursif:
+• Tidak bisa melakukan nested loop atau looping bersarang.
+• Biasanya membuat fungsi sulit untuk dipahami, hanya cocok untuk persoalan tertentu saja.
+• Trace error sulit.
+• Memerlukan stack yang lebih besar, sebab setiap kali fungsi dipanggil, variabel lokal dan parameter formal akan ditempatkan ke stack dan ada kalanya akan menyebabkan stack tak cukup lagi (Stack Overrun).
+• Proses agak berbelit-belit karena terdapat pemangilan fungsi yang berulang-ulang dan pemanggilan data yang ditumpuk.
+
+5. Pointer
+         Pointer (variabel penunjuk) adalah suatu variabel yang berisi alamat memori dari suatu variabel lain! Pointer merupakan variabel level rendah yang dapat digunakan untuk menunjuk nilai integer, character, &loat, double, atau single, dan bahkan tipe-tipe data lain yang didukung oleh bahasa C!
+         pointer sifatnya dinamis dan dapat lebih fleksibel. variabel pointer yang tidak menunjuk pada nilai apapun berarti memiliki nilai NULL, dan disebut sebagai dangling. pointer karena nilainya tidak diinisialisasi dan tidak dapat diprediksi! Deklarasi Pointer Seperti halnya variabel yang lain, variabel pointer juga harus dideklarasikan terlebih dahulu sebelum digunakan!.
+
+BENTUK UMUM : tipe_data nama_pointer; 
+
+6. Modularisasi
+            konsep-konsep pemrograman adalah kemampuan untuk group beberapa baris kode ke dalam sebuah unit yang dapat dimasukan dalam program kami. Yang asli untuk kata ini adalah sub-program. Nama lain meliputi: makro, sub-rutin, prosedur, modul dan fungsi. Fungsi-fungsi penting karena membolehakn kita untuk mengambil program besar dan rumit untuk membagi mereka menjadi potongan-potongan kecil diatur. Karena fungsi yang lebih kecil adalah bagian program secara keseluruhan, Umumnya fungsi jatuh kedalam
+dua kategori:
+Control program
+           Fungsinya hanya di gunakan untuk membagi dan sub control program . fungsi ini adalah fungsi unik yang di tulis. Lain-lain program dapat menggunaka fungsi serupa bahkan fungsi dengan nama yang sama, tetapi isi dari fungsi hampir selalu berbeda.
